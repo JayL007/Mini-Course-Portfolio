@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmyn Laday |  Portfolio</title>
+    <meta name="description" content="Portfolio of a marketing, web development, and cloud specialist — projects, skills, and contact information." />
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+     <!-- Header Section -->
+    <header>
+        <nav aria-label="Main navigation">
+            <!-- Navigation links -->
+            <ul id="nav-menu">
+                       <li><a href="#assignments">Assignments</a></li>
+                        <li><a href="#careers">Tech Roles</a></li><li><a href="#travel">Travel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= HERO / HOME ================= -->
+    <!-- <main> is the landmark wrapper for the page's primary content -->
+    <main>
+        <section id="home" class="hero">
+            <h1>Hello, my name is <span> Jasmyn</span></h1>
+            <p>Culver City, CA</p>
+
+            <!-- Call-to-action buttons: guide visitors to the two most
+                 important actions on the page -->
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Assignments</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+        </section>
+
+        <!-- ================= Assignments ================= -->
+        <section id="about" aria-label="Assignments">
+            <h2>Assignments</h2>
+            <div class="Assignments">
+                               <div class="Assignments">
+                   <div class="card-body">
+                    <h3>HTML Review</h3>
+                </div> 
+                <img src="images/html-review-assignment.png" alt="Screenshot of CodeSquad HTML Review Assignment">
+                </div>
+               
+            </div>
+
+            <div class="card assignment-card">
+                  <div class="card-body">
+                    <h3>JavaScript</h3> <div class="img-container">
+                    <!-- Update image src to your relative project folder path -->
+                    <img src="images/javascript-assignment.png" alt="Screenshot of CodeSquad JavaScript Assignment">
+                </div>
+                  <div class="card assignment-card">
+                  <div class="card-body">
+                    <h3>Basic CSS</h3> <div class="img-container">
+                    <!-- Update image src to your relative project folder path -->
+                    <img src="images/basic-css-assignment.png" alt="Screenshot of CodeSquad Basic CSS Assignment">
+                </div>
+
+                    <!-- Future list  -->
+                     <section></section>
+                    <h2>Future Tech Roles</h2>
+                    <ul class="future-list">
+                        
+                        <li>Front-End Developer</li>
+                        <li>Cloud Solutions Architect / Cloud Engineer</li>
+                        <li>Agent Operator</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= Travel ================= -->
+        <section id="places" aria-label="Places I've been">
+            <h2>Travel</h2>
+            <p class="section-intro">Soon I Will Visit:</p>
+            <div class="places-grid">
+                <figure class="place-card">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.lEGu4xX7hn5XJhAHldJShQHaEK%3Fpid%3DApi&amp;f=1&amp;ipt=9d0ed3c7c2dbfff4660370383fadaa56f33e262bd7fd6c637a09abfd336bfa5f&amp;ipo=images" alt="Bangkok, Thailand skyline">
+                    <figcaption>Bangkok, Thailand</figcaption>
+                </figure>
+                
+                </figure>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" aria-label="Contact me">
+            <h2>Contact Me</h2>
+
+            <!-- Contact form -->
+            <form action = "" method="post">
+                <!-- Each field is wrapped in a div so CSS/JS can target -->
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Jay007" target="_blank" aria-label="GitHub profile">GitHub</a>
+            <a href="https://www.linkedin.com/in/jasmynladay/" target="_blank" aria-label="LinkedIn profile">LinkedIn</a>
+        </div>
+        <p>&copy; 2026 | Built with HTML, CSS & JavaScript</p>
+    </footer>
+</body>
+</html>
